@@ -24,15 +24,18 @@
 
 .dice
 {
-    padding: 0 1em;
+    height: 300px;
+    width: 300px;
     max-width: 40em;
     margin: 0 auto;
-    height: 400px;
-    width: 400px;
 }
 
-.dice-one .dice{
+.dice-one{
     justify-self: end;
+}
+
+.dice-two{
+    justify-self: start;
 }
 
 .face
