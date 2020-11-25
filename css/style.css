@@ -1,0 +1,42 @@
+.game
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.msg 
+{
+    text-align: center;
+    font-size: 3em;
+    margin: 0.5em 0;
+    grid-column: 1 / -1;
+    justify-self: center;
+}
+
+.roll
+{
+    height: 40px;
+    width: 100px;
+    justify-self: center;
+    grid-column: 1/-1;
+}
+
+.dice
+{
+    padding: 0 1em;
+    max-width: 40em;
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+}
+
+.dice-one .dice{
+    justify-self: end;
+}
+
+.face
+{
+    border: 0.25em solid black;
+    border-radius: 0.5em;
+}
